@@ -281,8 +281,8 @@ url: https://ui.chaicode.com/auth/signup
 firstname: Arpan
 lastname: Sarkar
 email: Arpt@example.com
-password: Pa$$w0rd123!
-confirm_password: Pa$$w0rd123!`;
+password: Arpan@chai2
+confirm_password: Arpan@chai2`;
 
 (async () => {
   // Run deterministically without relying on model tool-calling
@@ -291,8 +291,8 @@ confirm_password: Pa$$w0rd123!`;
     firstname: 'Arpan',
     lastname: 'Sarkar',
     email: 'Arpt@example.com',
-    password: 'Pa$$w0rd123!',
-    confirm_password: 'Pa$$w0rd123!',
+    password: 'Arpan@chai2',
+    confirm_password: 'Arpan@chai2',
   });
 
   // Optionally also run through the agent (commented out to avoid extra tokens)
